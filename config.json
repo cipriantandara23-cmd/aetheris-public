@@ -1,0 +1,24 @@
+{
+  "network": {
+    "network_name": "Aetheris Devnet Alpha",
+    "protocol": "Block-DAG",
+    "master_node_address": "master-node.aetheris.network",
+    "port": 8080,
+    "connection_timeout_seconds": 30
+  },
+  "miner_settings": {
+    "worker_name": "Egalitarian-Laptop-Worker",
+    "mining_wallet_address": "0x0000000000000000000000000000000000000000",
+    "allocated_threads": 2,
+    "intensity_level": "medium"
+  },
+  "consensus_rules": {
+    "fixed_block_reward": 1.0,
+    "anti_whale_governance": "Quadratic Voting (V = sqrt(C))",
+    "cryptography_standard": "ML-DSA (Module-Lattice Digital Signature Algorithm)"
+  },
+  "logging": {
+    "log_to_file": true,
+    "log_level": "INFO"
+  }
+}
