@@ -1,2 +1,2 @@
 # aetheris-public
-Official White Paper and Devnet Miner for the Aetheris Layer 1 Architecture
+[Read Aetheris White Paper v1.1 (Online)](WHITEPAPER.md)
